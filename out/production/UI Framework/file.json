@@ -1,0 +1,116 @@
+{
+  "name": "top-most-cont",
+  "type": "col-cont",
+  "style": {
+    "width": "50%",
+    "height": "50%",
+    "background": "#ffffff"
+  },
+  "child": [
+    {
+      "type": "row-cont",
+      "style": {
+        "background": "#ECECEC",
+        "height": "30px",
+        "width": "100%"
+      }
+    },
+    {
+      "name": "divider",
+      "type": "row-cont",
+      "style": {
+        "background": "#A9A9A9",
+        "height": "1px",
+        "width": "100%"
+      }
+    },
+    {
+      "name": "row-cont",
+      "type": "row-cont",
+      "style": {
+        "background": "#F38039 #D31B83",
+        "height": "40px",
+        "width": "100%"
+      }
+    },
+    {
+      "name": "divider",
+      "type": "row-cont",
+      "style": {
+        "background": "#A9A9A9",
+        "height": "1px",
+        "width": "100%"
+      }
+    },
+    {
+      "type": "row-cont",
+      "style": {
+        "background": "#EEEFFF",
+        "height": "100% - 40px - 30px - 30px - 30px - 4px",
+        "width": "100%",
+        "align-x": "space-equally",
+        "align-y": "center"
+      },
+      "child": [
+        {
+          "type": "input",
+          "style": {
+            "padding": "5px",
+            "background": "#FFFFFF",
+            "width": "200px",
+            "height": "40px"
+          }
+        },
+        {
+          "type": "button",
+          "text": "button",
+          "style": {
+            "background": "#FF7B7D",
+            "width": "200px",
+            "height": "40px",
+            "color": "#FFFFFF"
+          },
+          "hover-style": {
+            "background": "#8E9CFF"
+          },
+          "click-style": {
+            "background": "#3636FF #8E9CFF"
+          }
+        }
+      ]
+    },
+    {
+      "name": "divider",
+      "type": "row-cont",
+      "style": {
+        "background": "#A9A9A9",
+        "height": "1px",
+        "width": "100%"
+      }
+    },
+    {
+      "type": "row-cont",
+      "style": {
+        "background": "#ECECEC",
+        "height": "30px",
+        "width": "100%"
+      }
+    },
+    {
+      "name": "divider-4",
+      "type": "row-cont",
+      "style": {
+        "height": "1px",
+        "width": "100%"
+      }
+    },
+    {
+      "type": "row-cont",
+      "style": {
+        "background": "#ECECEC",
+        "height": "30px",
+        "width": "100%"
+      }
+    }
+  ]
+}
